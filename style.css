@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: fantasy;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.card{
+    border: 1px solid black;
+    border-radius: 14px;
+    box-shadow: 4px 4px 8px 0px black;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin: 20px;
+    /* animation: anim1 1s infinite alternate; */
+  
+    img{
+        width: 100%;
+        /* height: 300px; */
+        object-fit: contain;
+        aspect-ratio: 1;
+    }
+
+    h3{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        overflow: hidden;
+    }
+    p{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+    }
+    
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)) ;
+}
+h2{
+    text-align: center;
+    margin: 20px;
+}
+
+/* 
+@keyframes anim1 {
+    0%{
+        background-color: lightcoral;
+        box-shadow: 4px 4px 8px 0px black;
+        scale: 1;
+        rotate: 0;
+    }
+
+    100%{
+        background-color: lightblue;
+        box-shadow: 4px 4px 8px 0px black;
+        scale: 1.1;
+        rotate: 36000000000000000000000deg   ;
+    }
+} */
